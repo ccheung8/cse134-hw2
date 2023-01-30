@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <!-- Placeholder for when stylesheet is created -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <template>This message is hidden until I can add some interactivity to my site.</template>
+  <header>
+    <h1>Calvin Cheung's Portfolio</h1>
+    <svg>
+      <circle cx="50" cy="50" r="40"/>
+      <circle cx="20" cy="20" r="20"/>
+      <circle cx="75" cy="20" r="20"/>
+    </svg>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Experiments</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+  <main>
+    <canvas id="canvas">
+      Canvas is not supported by your browser
+    </canvas>
+    <h2>Hey I'm Calvin, a <span>Human-Centered</span> <em>Designer</em></h2>
+    <p>Below is a pronounciation of my first name</p>
+    <audio controls>
+      <source src="calvin.mp3" type="audio/mpeg">
+      Your browser does not support this audio file.
+    </audio>
+    <p>Here's a really short video of how unorganized my desktop is</p>
+    <video controls>
+      <source src="unorganized.mov" type="video/mp4">
+      Your browser does not support this video file.
+    </video>
+    <details>
+      <summary>What is Human-Centered Design?</summary>
+      <p>Human-Centered design is the process of understanding humans and deploying problem solving techniques and solutions that cater to the target audience. </p>
+    </details>
+    <picture>
+      <figure>
+        <img src="images/c98.jpg" alt="scared hamster">
+        <figcaption>A scared hamster</figcaption>
+      </figure>
+    </picture>
+    <aside>
+      <p>The image of this hamster was obtained from <i>Know Your Meme</i>.</p>
+      <p>The image is typically used to convey feelings of <strong>fear</strong> or <b>disgust</b>.</p>
+    </aside>
+    <hr>
+    <table>
+      <colgroup>
+        <col span="2" style="background-color: pink;">
+      </colgroup>
+      <caption>My Technical Skills</caption>
+      <tr>
+        <th>Skill Name</th>
+        <th>Skill Level (1 - 5)</th>
+      </tr>
+      <tr>
+        <td>Java</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>C++</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Javascript</td>
+        <td>2</td>
+      </tr>
+    </table>
+    <code>Did you know? This piece of text was generated using the code tag.</code>
+  </main>
+  <section>
+    <h3><i>My Work</i></h3>
+    <ol>
+      <li>Case Study 1</li>
+      <li>Case Study 2</li>
+      <li>Case Study 3</li>
+    </ol>
+  </section>
+  <div>
+    <form action="">
+      <fieldset>
+        <legend>Contact Me</legend>
+        <label for="email">Email</label>
+        <input type="email" name="email"><br><br>
+        <label for="name">Name</label>
+        <input type="text" name="name"><br><br>
+        <label for="regions">What region are you from?</label>
+        <select id="regions">
+          <option value="Americas">Americas</option>
+          <option value="Asia Pacific">Pacific</option>
+          <option value="Europe">Europe</option>
+          <option value="Middle East/Africa">Africa</option>
+        </select>
+        <br><br>
+        <label for="colors">What's your favorite color?</label>
+        <select name="colors">
+          <optgroup label="Primary Colors">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+          </optgroup>
+          <optgroup label="Secondary Colors">
+            <option value="orange">Orange</option>
+            <option value="green">Green</option>
+            <option value="violet">Violet</option>
+          </optgroup>
+          <optgroup label="Tertiary Colors">
+            <option value="red-orange">Red-Orange</option>
+            <option value="yellow-orange">Yellow-Orange</option>
+            <option value="yellow-green">Yellow-Green</option>
+            <option value="blue-green">Blue-Green</option>
+            <option value="blue-violet">Blue-Violet</option>
+            <option value="red-violet">Red-Violet</option>
+          </optgroup>
+        </select>
+        <pre><label for="os">Choose your operating system from the list:</label></pre>
+        <input list="oss" name="os" id="os">
+        <datalist id="oss">
+          <option value="Windows">
+          <option value="macOS">
+          <option value="Linux">
+          <option value="Other">
+        </datalist>
+        <p><label for="message">Message:</label></p>
+        <textarea name="message" cols="30" rows="10"></textarea><br>
+        <button>Submit</button>
+      </fieldset>
+    </form>
+  </div>
+  <p>What I'm listening to:</p>
+  <iframe src="https://open.spotify.com/embed/playlist/0HcTHVOXHTaXiPH3fNmdHv?utm_source=generator"></iframe>
+  <footer>
+    <p>Made with &hearts; by Calvin Cheung</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
